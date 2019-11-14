@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+     
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>From view</title>
+</head>
+<body>
+    
+    <div class="jumbotron text-center">
+        <form action="create.php" method="POST" enctype="multipart/form-data">
+            <div class="form-group row">
+                <label  class="col-sm-2 col-form-label">User ID</label>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control"  placeholder="Enter your id " name="userid" required>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label  class="col-sm-2 col-form-label">First Name</label>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control"  placeholder="Enter your first name" name="firstname" required >
+                </div>
+            </div>
+            <div class="form-group row">
+                <label  class="col-sm-2 col-form-label">Last Name</label>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control"  placeholder="Enter your last name" name="lastname" required>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label  class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-8">
+                  <input type="email" class="form-control"  placeholder="Enter your valid email" name="email" required>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label  class="col-sm-2 col-form-label">Password</label>
+                <div class="col-sm-8">
+                  <input type="password" class="form-control"  placeholder="Enter you password" name="password" required>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label  class="col-sm-2 col-form-label">image</label>
+                <div class="col-sm-8">
+                  <input type="file" class="form-control"  placeholder="uplode image" name="image">
+                </div>
+            </div>
+ 
+         <!--  
+            <input    placeholder="Your ID" type="text" name="userid"><br></br>
+             
+            <input placeholder="First name" type="text" name="firstname"><br></br>
+            <input placeholder="Last name " type="text" name="lastname"><br></br>
+            <input placeholder=" Email" type="text" name="email"><br></br>
+            <input placeholder=" Password" type="password" name="password"><br></br>
+            <input placeholder=" Image" type= "image" name="image">
+            
+            <br></br>
+            <input type="submit" class="btn btn-info" value="Submit  ">
+         -->
+            
+            <button class="btn btn-primary" type="submit">Submit form</button>
+             
+        </form>
+    </div>
+</body>
+</html>

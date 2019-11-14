@@ -1,0 +1,175 @@
+
+/*.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 360px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+*/
+
+
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /*background-image: url("backgroundimg.jpg");*/
+    /*opacity: 0.6;*/
+    position: relative;
+    
+    font-size: 14pt;
+    min-height: 100vh;
+    display: block;
+    margin: 0;
+}
+
+header {
+    background-color:  #32383e;
+    text-align: center;
+/*    //font-size: 35px;*/
+    color: white;
+}
+
+view{
+    background-color: lightgrey;
+}
+/*css for view.php table*/
+
+table tbody tr td a{
+
+    color:  white;
+}
+
+
+
+
+form input{
+    height: 40px;
+
+}
+#table_style tr td {
+    color: white;
+    font-size: 18px;
+}
+
+#viewTable{
+    min-height: 100%;
+    width: 100%;
+}
+
+.form{
+    display: block;
+    text-align: center;
+    padding: 50px;
+
+}
+.form-button{
+    width: 150px !important;
+    height: 40px;
+    float: right !important;
+
+}
+#page-content {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrapper {
+    padding-bottom: 2.5rem;    /* Footer height */
+}
+
+#footer {
+    
+    bottom: 0;
+
+    width: 100%;
+    background-color: #777;
+    text-align: center;
+    height: 3.5rem;            /* Footer height */
+}
+
+
+/*css for slide menu  */
+
+.bg-color{
+    background-color: #4A6B8A !important;
+    color: #ffffff !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+
+.createUserForm{
+    padding: 200px 100px 100px 100px !important;
+    background-color: lightsteelblue;
+    min-height: 835px;
+}
+#menubar {
+    list-style-type: none;
+    padding: 0 !important;
+    margin: 0px !important;
+}
+#menubar li {
+    display: inline;
+    text-align: left;
+    list-style-type: none;
+    font-family: Lobster ;
+}
+#menubar li a {
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    padding:6px;
+    font-size: 25px;
+    
+}
+#menubar li a:hover{
+    background-color: lightgray;
+    transition: 1s;
+}
+
+#logout a{
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    padding:6px;
+    padding-bottom: 0px;
+    font-size: 25px;
+    font-family: Lobster;
+}
+
+#logout{
+    padding: 6px !important;
+}
